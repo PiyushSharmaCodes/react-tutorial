@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: grey;
+    height: 70vh;
+    width: 25vw;
+    padding: 15px 30%;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid goldenrod;
+    border-radius: 12px;
+    padding: 10px;
+    height: 32rem; 
+    width: 18rem;
+    position: relative;
+    top: 20px;
+}
+
+img {
+    height: 178px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    object-position: 70% center;
+    margin: 5px 0px;
+}
+
+.tag {
+    color: grey;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+}
+
+button {
+    color: blue;
+    background-color: lightskyblue;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 6.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    color: gold;
+}
+p {
+    color: grey;
+    line-height: 20px;
+    margin: 5px;
+}
+.content{
+    padding: 13px;
+}
