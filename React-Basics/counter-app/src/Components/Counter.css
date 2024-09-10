@@ -1,0 +1,27 @@
+h1{
+    color: rgb(168, 251, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: rgb(132, 1, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.card{
+    width: 300px;
+    background-color: rgb(117, 149, 162);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
